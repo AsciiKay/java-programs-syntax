@@ -4,7 +4,7 @@
     Multi-line comments are big!
 */
 
-class Comments{
+class Main {
     public static void main(String[] args) {
         // Printing text to screen
         System.out.println("I love comments!");
