@@ -6,11 +6,17 @@
 // % : modulo
 // 
 // For both ints and doubles
+//
+// Increment-Decrement
+// ++ : incrementation
+// -- : decrementation
 
-class Math_Ops {
+class Main {
     public static void main(String[] args) {
-        int sum = 9 + 9 + 1;
-        double subs = 99.314159 - 0.314159;
+        int sum = 9 + 9;
+        ++sum;
+        double subs = 98.314159 - 0.314159;
+        --subs;
         int mult = 89 * 89;
         double div = 11 / 3;
         int mod = 17 % 5;
