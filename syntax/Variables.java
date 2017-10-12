@@ -5,7 +5,7 @@
 // Char : Alpha Numeric characters
 // Bool : Boolean values of true and/or false
 
-class Variables {
+class Main {
     public static void main(String[] args) {
         int calc = 1440 + 1550;  // value of calc set to integer 1440 + 1550
         double pi = 3.14159;    // value of pi set double value of 'pi'
