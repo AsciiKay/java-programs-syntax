@@ -1,4 +1,5 @@
 import java.util.Scanner; 
+
 // Taking input using Scanner from javas core libraries
 // First create a scanner Object
 // Then take input using specific method callings on that object 
