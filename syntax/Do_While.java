@@ -6,15 +6,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Input for start point 
-        Scanner input_n = new Scanner(System.in);
-        System.out.println("Enter start point number:");
-        int n = input_n.nextInt();
+        Scanner input = new Scanner(System.in);
         
-        // Input for end point 
-        Scanner input_z = new Scanner(System.in);
+        // Input for start point 
+        System.out.println("Enter start point number:");
+        int n = input.nextInt();
+        
+        // Input for end point
         System.out.println("Enter end point number:");
-        int z = input_z.nextInt();
+        int z = input.nextInt();
         
         // Loop to print all cubes of numbers till end but not of end 
         do {
