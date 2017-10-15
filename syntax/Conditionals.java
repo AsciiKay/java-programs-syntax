@@ -17,14 +17,13 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 	  
-	    Scanner input_x = new Scanner(System.in);
-	    Scanner input_y = new Scanner(System.in);
+	    Scanner input = new Scanner(System.in);
 	    
 	    System.out.println("Enter a number:");
-	    int x = input_x.nextInt();
+	    int x = input.nextInt();
 	    
 	    System.out.println("Enter another number:");
-	    int y = input_y.nextInt();
+	    int y = input.nextInt();
 	    System.out.println("");
 	    
 	    if (x > y) {
